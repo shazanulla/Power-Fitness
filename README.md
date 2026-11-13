@@ -56,7 +56,7 @@ Almost everything is in **`data/site.json`**: punchline, about text, stats, trai
 
 ### Get every lead by email (Resend)
 
-Each form (free trial, class booking, contact message) is emailed to `"notify"."email"` in `data/site.json` (shaizanulla@gmail.com).
+Each form (free trial, class booking, contact message) is emailed to `"notify"."email"` in `data/site.json` (shaizanullah@gmail.com).
 
 1. Sign up at resend.com **with that same email** (on the free plan Resend only delivers to your own sign-up email until you verify a domain).
 2. Create an API key (Sending access) and add it in Vercel as `RESEND_API_KEY`.

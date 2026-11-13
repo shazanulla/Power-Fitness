@@ -343,11 +343,11 @@
     "postalCode": "",
     "phone": "+91 90356 30286",
     "whatsapp": "919035630286",
-    "email": "Shaizanulla@gmail.com",
+    "email": "shaizanullah@gmail.com",
     "mapQuery": "Cognizant SRZ Campus Chennai",
     "social": {"instagram": "https://instagram.com/", "facebook": "https://facebook.com/", "youtube": "https://youtube.com/"}
   },
-  "notify": {"email": "shaizanulla@gmail.com"},
+  "notify": {"email": "shaizanullah@gmail.com"},
   "teamOrder": ["shazan", "naveed", "adithya", "rohit", "geetha"],
   "payment": {
     "title": "Pay only after your free trial",
