@@ -1,0 +1,359 @@
+{
+  "gym": {
+    "name": "POWER FITNESS",
+    "punchline": "Jitna Raghda, Uthna Taghda",
+    "punchlineMeaning": "The harder you grind, the stronger you get.",
+    "tagline": "Train hard. Stay strong. Live powerful.",
+    "about": "POWER FITNESS is a no-excuses strength gym built for people who want real results. Whether you are lifting for the first time or chasing a new personal record, you get serious equipment, certified coaches and a crew that pushes you to show up every single day.",
+    "story": [
+      "POWER FITNESS started with a simple belief: results come from consistent, honest hard work, not shortcuts. We built a gym where beginners feel welcome on day one and experienced lifters have the equipment and coaching to keep progressing.",
+      "Today our members train across strength, cardio, weight training and group classes, with coaches who know every member by name and track every rep that matters."
+    ],
+    "established": 2018,
+    "timezone": "Asia/Kolkata",
+    "announcement": "First time here? Your trial workout is FREE.",
+    "stats": [
+      {"value": 1200, "suffix": "+", "label": "Members trained"},
+      {"value": 8000, "suffix": "", "label": "Sq ft training floor"},
+      {"value": 25, "suffix": "+", "label": "Group classes / week"},
+      {"value": 7, "suffix": "", "label": "Days open every week"}
+    ],
+    "values": [
+      {"title": "Discipline", "text": "Show up, do the work, repeat. Discipline beats motivation every single time."},
+      {"title": "Strength", "text": "We build bodies that are strong, capable and ready for real life, not just for the mirror."},
+      {"title": "Community", "text": "Train next to people who cheer for your PRs and notice when you miss a day."}
+    ],
+    "highlights": [
+      "Certified coaches on the floor at all hours",
+      "Free fitness assessment when you join",
+      "Diet guidance built around home-cooked food",
+      "Clean, air-conditioned and safe for everyone"
+    ],
+    "sideLine": ["Show up.", "Sweat.", "Never quit."],
+    "perks": [
+      {"icon": "shield", "title": "Certified coaches", "text": "On the floor every hour"},
+      {"icon": "dumbbell", "title": "Serious equipment", "text": "Racks, platforms, 50 kg DBs"},
+      {"icon": "bolt", "title": "Free trial", "text": "Your first workout is on us"},
+      {"icon": "clock", "title": "Open 7 days", "text": "From 5:30 AM to 10 PM"},
+      {"icon": "apple", "title": "Diet support", "text": "Plans built on home food"}
+    ]
+  },
+  "quotes": [
+    {"text": "Jitna raghda, uthna taghda.", "by": "The POWER FITNESS way"},
+    {"text": "Discipline builds freedom.", "by": "Wall of the training floor"},
+    {"text": "The weight does not care about your excuses.", "by": "POWER FITNESS"}
+  ],
+  "trainers": [
+    {
+      "id": "adithya",
+      "name": "Coach Adithya",
+      "role": "Founder & Coach · Fat Loss & Conditioning",
+      "title": "Founder & Coach",
+      "photo": "/images/team/adithya.webp",
+      "photoSmall": "/images/team/adithya-sm.webp",
+      "focus": "50% 22%",
+      "quote": "Every rep you don't want to do is the rep that builds you. Raghdo aaj, chamko kal.",
+      "bio": "Adithya founded POWER FITNESS and still coaches on the floor every day. He leads our HIIT and conditioning classes and specialises in fat loss, core strength and bodyweight training.",
+      "specialties": ["Fat loss", "HIIT", "Calisthenics", "Core strength"],
+      "stats": [{"value": "Founder", "label": "POWER FITNESS"}, {"value": "300+", "label": "Transformations guided"}],
+      "certifications": ["Certified Personal Trainer", "Functional Training"]
+    },
+    {
+      "id": "naveed",
+      "name": "Coach Naveed",
+      "role": "Head Coach · Strength & Muscle Gain",
+      "title": "Head Coach",
+      "photo": "/images/team/naveed.webp",
+      "photoSmall": "/images/team/naveed-sm.webp",
+      "focus": "50% 20%",
+      "quote": "Discipline builds freedom. Show up on the days you don't feel like it — those are the days that change you.",
+      "bio": "Naveed runs the strength floor. He coaches the big lifts with strict technique and writes progressive plans that keep members adding weight to the bar month after month.",
+      "specialties": ["Powerlifting", "Muscle gain", "Technique coaching", "Injury-safe training"],
+      "stats": [{"value": "8+", "label": "Years coaching"}, {"value": "500+", "label": "Members trained"}],
+      "certifications": ["Certified Strength Coach", "Sports Nutrition"]
+    },
+    {
+      "id": "shazan",
+      "name": "Coach Shazan",
+      "role": "Assistant Coach · Strength & Conditioning",
+      "title": "Assistant Coach",
+      "photo": "/images/team/shazan.webp",
+      "photoSmall": "/images/team/shazan-sm.webp",
+      "focus": "40% 20%",
+      "quote": "Show up, do the basics brilliantly, and the results will follow.",
+      "bio": "Shazan supports members across the training floor, helping beginners with form, setting up workouts and running our core and mobility sessions.",
+      "specialties": ["Form correction", "Beginner programs", "Core training", "Mobility"],
+      "stats": [{"value": "3+", "label": "Years coaching"}, {"value": "200+", "label": "Members guided"}],
+      "certifications": ["Certified Fitness Trainer"]
+    },
+    {
+      "id": "rohit",
+      "name": "Coach Rohit",
+      "role": "Coach · Strength & Bodybuilding",
+      "title": "Coach",
+      "photo": "/images/team/rohit.webp",
+      "photoSmall": "/images/team/rohit-sm.webp",
+      "focus": "50% 18%",
+      "quote": "Strong arms, stronger mindset. Train with intent every single rep.",
+      "bio": "Rohit coaches strength and bodybuilding. He focuses on upper-body development, good posture and steady progressive overload, and makes sure every member trains with correct form.",
+      "specialties": ["Bodybuilding", "Upper body", "Posture", "Progressive overload"],
+      "stats": [{"value": "5+", "label": "Years coaching"}, {"value": "250+", "label": "Members trained"}],
+      "certifications": ["Certified Strength Coach"]
+    },
+    {
+      "id": "geetha",
+      "name": "Coach Geetha",
+      "role": "Ladies Coach · Strength & Toning",
+      "title": "Ladies Coach",
+      "photo": "/images/team/geetha.webp",
+      "photoSmall": "/images/team/geetha-sm.webp",
+      "focus": "50% 18%",
+      "quote": "Strong is beautiful. Lift with confidence and own every rep.",
+      "bio": "Geetha leads our ladies batch and Zumba classes. She helps women build strength, tone up and train confidently in a comfortable, supportive space.",
+      "specialties": ["Ladies strength", "Toning", "Zumba", "Post-pregnancy fitness"],
+      "stats": [{"value": "4+", "label": "Years coaching"}, {"value": "250+", "label": "Women trained"}],
+      "certifications": ["Certified Personal Trainer", "Women's Fitness"]
+    }
+  ],
+  "facilities": [
+    {"icon": "dumbbell", "title": "Free Weights Zone", "text": "Dumbbells from 2.5 kg to 50 kg, Olympic barbells, bumper plates and adjustable benches."},
+    {"icon": "rack", "title": "Power Racks", "text": "Squat racks, deadlift platforms and a Smith machine for heavy, safe lifting."},
+    {"icon": "machine", "title": "Strength Machines", "text": "Plate-loaded and pin machines that cover every major muscle group."},
+    {"icon": "heart", "title": "Cardio Deck", "text": "Treadmills, cross-trainers, spin bikes and rowers with heart-rate tracking."},
+    {"icon": "bolt", "title": "Functional Zone", "text": "Turf, sleds, battle ropes, kettlebells and plyo boxes for conditioning."},
+    {"icon": "apple", "title": "Diet & Nutrition", "text": "Practical diet charts built around Indian home food, not expensive supplements."},
+    {"icon": "locker", "title": "Lockers & Showers", "text": "Secure lockers, clean changing rooms and hot water showers."},
+    {"icon": "parking", "title": "Parking & RO Water", "text": "Free two-wheeler and car parking plus RO drinking water on the floor."}
+  ],
+  "programs": [
+    {
+      "id": "strength",
+      "category": "Strength",
+      "title": "Strength Training",
+      "level": "All levels",
+      "duration": "60 min",
+      "frequency": "3–4 days / week",
+      "intensity": 3,
+      "text": "Build real strength with the big compound lifts: squat, bench press, deadlift and overhead press, programmed so the bar keeps getting heavier.",
+      "points": ["Technique coaching on every lift", "Progressive overload plan", "Monthly strength testing"],
+      "for": "Anyone who wants to get genuinely strong"
+    },
+    {
+      "id": "weight",
+      "category": "Weight Training",
+      "title": "Weight Training & Muscle Gain",
+      "level": "Intermediate",
+      "duration": "60–75 min",
+      "frequency": "5 days / week",
+      "intensity": 3,
+      "text": "Body-part split routines to add lean muscle and shape your physique, paired with a muscle-gain diet you can actually follow.",
+      "points": ["Hypertrophy splits", "Muscle-gain diet chart", "Progress photos & measurements"],
+      "for": "Lifters who want size and shape"
+    },
+    {
+      "id": "cardio",
+      "category": "Cardio",
+      "title": "Cardio Conditioning",
+      "level": "Beginner friendly",
+      "duration": "45 min",
+      "frequency": "3–5 days / week",
+      "intensity": 2,
+      "text": "Improve stamina and heart health with structured treadmill, cycling, rowing and interval sessions built around heart-rate zones.",
+      "points": ["Heart-rate zone training", "Endurance building", "Fat-burn intervals"],
+      "for": "Better stamina and heart health"
+    },
+    {
+      "id": "weightloss",
+      "category": "Cardio",
+      "title": "Weight Loss Program",
+      "level": "All levels",
+      "duration": "50 min",
+      "frequency": "4–5 days / week",
+      "intensity": 2,
+      "text": "Cardio, circuits and diet coaching combined for steady, sustainable fat loss without crash diets.",
+      "points": ["Weekly weigh-ins", "Calorie-smart Indian diet plan", "Circuit workouts"],
+      "for": "Losing fat and keeping it off"
+    },
+    {
+      "id": "functional",
+      "category": "Functional",
+      "title": "Functional & HIIT",
+      "level": "Intermediate",
+      "duration": "40 min",
+      "frequency": "2–3 days / week",
+      "intensity": 3,
+      "text": "Kettlebells, battle ropes, sled pushes and bodyweight drills for agility, power and everyday fitness.",
+      "points": ["Small group sessions", "Full-body conditioning", "High calorie burn"],
+      "for": "Athletic fitness and high energy"
+    },
+    {
+      "id": "personal",
+      "category": "Strength",
+      "title": "Personal Training",
+      "level": "All levels",
+      "duration": "Flexible",
+      "frequency": "You choose",
+      "intensity": 2,
+      "text": "One-on-one coaching with a dedicated trainer who plans every session, tracks your progress and keeps you accountable.",
+      "points": ["Custom workout plan", "Diet & lifestyle guidance", "Dedicated coach"],
+      "for": "Fastest, fully guided results"
+    }
+  ],
+  "classes": [
+    {"id": "hiit-am", "title": "HIIT Blast", "type": "HIIT", "time": "06:30", "duration": 45, "days": ["Mon", "Wed", "Fri"], "trainer": "adithya", "intensity": 3, "capacity": 15},
+    {"id": "strength-am", "title": "Power Lifting Basics", "type": "Strength", "time": "07:30", "duration": 60, "days": ["Tue", "Thu", "Sat"], "trainer": "naveed", "intensity": 3, "capacity": 10},
+    {"id": "core", "title": "Core Crusher", "type": "HIIT", "time": "08:00", "duration": 30, "days": ["Mon", "Wed", "Fri"], "trainer": "shazan", "intensity": 2, "capacity": 20},
+    {"id": "ladies", "title": "Ladies Strength", "type": "Strength", "time": "11:00", "duration": 60, "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"], "trainer": "geetha", "intensity": 2, "capacity": 12},
+    {"id": "zumba", "title": "Zumba Dance", "type": "Dance", "time": "18:00", "duration": 45, "days": ["Mon", "Wed", "Fri"], "trainer": "geetha", "intensity": 2, "capacity": 25},
+    {"id": "cardio-burn", "title": "Cardio Burn", "type": "Cardio", "time": "18:00", "duration": 40, "days": ["Tue", "Thu"], "trainer": "rohit", "intensity": 2, "capacity": 15},
+    {"id": "functional-pm", "title": "Functional Circuit", "type": "HIIT", "time": "19:00", "duration": 45, "days": ["Tue", "Thu", "Sat"], "trainer": "adithya", "intensity": 3, "capacity": 15},
+    {"id": "strength-pm", "title": "Strength Club", "type": "Strength", "time": "19:30", "duration": 60, "days": ["Mon", "Wed", "Fri"], "trainer": "rohit", "intensity": 3, "capacity": 10},
+    {"id": "mobility", "title": "Mobility & Stretch", "type": "Recovery", "time": "08:00", "duration": 45, "days": ["Sun"], "trainer": "shazan", "intensity": 1, "capacity": 20},
+    {"id": "sunday-pump", "title": "Sunday Pump", "type": "Strength", "time": "09:30", "duration": 60, "days": ["Sun"], "trainer": "naveed", "intensity": 2, "capacity": 15}
+  ],
+  "plans": [
+    {
+      "id": "monthly",
+      "name": "Monthly",
+      "price": 1500,
+      "months": 1,
+      "popular": false,
+      "benefits": ["Full gym floor access", "Cardio & strength zones", "Locker & shower access", "General trainer guidance"]
+    },
+    {
+      "id": "quarterly",
+      "name": "Quarterly",
+      "price": 4000,
+      "months": 3,
+      "popular": false,
+      "benefits": ["Everything in Monthly", "Free fitness assessment", "Basic diet chart", "1 group class per week"]
+    },
+    {
+      "id": "half-yearly",
+      "name": "Half-Yearly",
+      "price": 7000,
+      "months": 6,
+      "popular": true,
+      "benefits": ["Everything in Quarterly", "Personalised workout plan", "Unlimited group classes", "Monthly progress check", "15-day membership freeze"]
+    },
+    {
+      "id": "yearly",
+      "name": "Yearly",
+      "price": 12000,
+      "months": 12,
+      "popular": false,
+      "benefits": ["Everything in Half-Yearly", "2 personal training sessions", "Custom nutrition plan", "Free POWER FITNESS T-shirt", "30-day membership freeze"]
+    }
+  ],
+  "plansNote": "One-time registration fee of ₹500 applies to all plans. Personal training is available as an add-on from ₹3,000/month.",
+  "compare": [
+    {"feature": "Gym floor & cardio access", "plans": ["monthly", "quarterly", "half-yearly", "yearly"]},
+    {"feature": "Locker & shower", "plans": ["monthly", "quarterly", "half-yearly", "yearly"]},
+    {"feature": "Free fitness assessment", "plans": ["quarterly", "half-yearly", "yearly"]},
+    {"feature": "Diet chart", "plans": ["quarterly", "half-yearly", "yearly"]},
+    {
+      "feature": "Group classes",
+      "plans": ["quarterly", "half-yearly", "yearly"],
+      "note": {"quarterly": "1 / week", "half-yearly": "Unlimited", "yearly": "Unlimited"}
+    },
+    {"feature": "Personalised workout plan", "plans": ["half-yearly", "yearly"]},
+    {"feature": "Monthly progress check", "plans": ["half-yearly", "yearly"]},
+    {"feature": "Membership freeze", "plans": ["half-yearly", "yearly"], "note": {"half-yearly": "15 days", "yearly": "30 days"}},
+    {"feature": "Personal training sessions", "plans": ["yearly"], "note": {"yearly": "2 sessions"}},
+    {"feature": "Custom nutrition plan", "plans": ["yearly"]}
+  ],
+  "joinSteps": [
+    {"title": "Book a free trial", "text": "Pick a date and time online. It takes under a minute."},
+    {"title": "Train with a coach", "text": "Get a guided workout and a free body assessment."},
+    {"title": "Choose your plan & pay", "text": "Pay at the gym after meeting us, or directly on WhatsApp."},
+    {"title": "Start the grind", "text": "Get your plan, your locker and your first PR."}
+  ],
+  "testimonialsAreSamples": true,
+  "testimonials": [
+    {
+      "name": "Sneha Kulkarni",
+      "detail": "Member for 8 months · Half-Yearly",
+      "rating": 5,
+      "date": "2026-09-14",
+      "text": "I joined after my second baby and honestly was scared to walk into a gym. The ladies batch at 11 was perfect for me. Coach Geetha started me with light weights and never made me feel awkward. Down 9 kg in 5 months and I can finally do proper push-ups!"
+    },
+    {
+      "name": "Rahul Deshmukh",
+      "detail": "Member for 2 years · Yearly",
+      "rating": 4,
+      "date": "2026-08-30",
+      "text": "Proper equipment, proper bars, plates don't wobble. My deadlift went from 80 to 140 kg here. It gets crowded between 7 and 8 pm, so I shifted to mornings, but the staff manage the rush well."
+    },
+    {
+      "name": "Imran Shaikh",
+      "detail": "Member for 1 year · Personal Training",
+      "rating": 5,
+      "date": "2026-07-22",
+      "text": "I'm 46 with a desk job and had lower back pain for years. Instead of throwing me into heavy lifting, they started with mobility and core work. Six months later I'm squatting without pain. Wish I had come earlier."
+    },
+    {
+      "name": "Priya Mehta",
+      "detail": "Member for 6 months · Quarterly",
+      "rating": 5,
+      "date": "2026-10-05",
+      "text": "Adithya's HIIT and Geetha's evening Zumba are the best part of my day. High energy, good music, and the changing room is actually clean, which matters a lot."
+    },
+    {
+      "name": "Aditya Joshi",
+      "detail": "Member for 1.5 years · Yearly",
+      "rating": 4,
+      "date": "2026-06-18",
+      "text": "Good value for money. The yearly plan works out to about ₹1,000 a month and the trainers actually check your form. Only complaint is parking fills up on weekend evenings."
+    },
+    {
+      "name": "Neha Rao",
+      "detail": "Member for 4 months · Monthly",
+      "rating": 5,
+      "date": "2026-09-28",
+      "text": "As a college student the fees are reasonable. The diet chart they gave me uses normal home food like dal, roti, paneer and eggs, nothing fancy. Already seeing a difference in my energy."
+    }
+  ],
+  "googleReviewUrl": "https://www.google.com/maps/search/?api=1&query=POWER+FITNESS+Cognizant+SRZ+Campus+Chennai",
+  "faqs": [
+    {"group": "Getting started", "q": "Is the trial session really free?", "a": "Yes. First-time visitors get one free guided workout and a body assessment. Book it on the Free Trial page or just call us."},
+    {"group": "Getting started", "q": "I have never been to a gym. Is POWER FITNESS right for me?", "a": "Absolutely. Most of our members started as beginners. A coach will teach you the basics, set the right weights and build a plan around your level."},
+    {"group": "Getting started", "q": "What should I bring for my first visit?", "a": "Comfortable workout clothes, clean indoor shoes, a towel and a water bottle. Lockers are available."},
+    {"group": "Membership", "q": "Is there a registration fee?", "a": "A one-time registration fee of ₹500 applies to all plans."},
+    {"group": "Membership", "q": "Can I freeze my membership?", "a": "Half-Yearly members can freeze for up to 15 days and Yearly members for up to 30 days, for travel, illness or exams."},
+    {"group": "Membership", "q": "How do I pay?", "a": "Payment happens only after your free trial. Pay at the front desk after meeting us (UPI, card or cash), or directly on WhatsApp. There is no online payment on the website."},
+    {"group": "Membership", "q": "Can I upgrade my plan later?", "a": "Yes. You only pay the difference for the remaining period when you upgrade."},
+    {"group": "Classes & training", "q": "Are group classes included in membership?", "a": "Quarterly plans include one class a week. Half-Yearly and Yearly plans include unlimited classes. Book your spot on the Classes page."},
+    {"group": "Classes & training", "q": "Do you have a ladies-only batch?", "a": "Yes. Coach Geetha runs our Ladies Strength batch, Monday to Saturday from 11:00 AM to 1:00 PM."},
+    {"group": "Classes & training", "q": "How much does personal training cost?", "a": "Personal training is an add-on starting from ₹3,000 per month. Yearly members get 2 sessions included."}
+  ],
+  "timings": [
+    {"day": "Monday", "open": "05:30", "close": "22:00"},
+    {"day": "Tuesday", "open": "05:30", "close": "22:00"},
+    {"day": "Wednesday", "open": "05:30", "close": "22:00"},
+    {"day": "Thursday", "open": "05:30", "close": "22:00"},
+    {"day": "Friday", "open": "05:30", "close": "22:00"},
+    {"day": "Saturday", "open": "06:00", "close": "21:00"},
+    {"day": "Sunday", "open": "07:00", "close": "12:00"}
+  ],
+  "timingsNote": "Ladies batch with Coach Geetha: 11:00 AM – 1:00 PM, Monday to Saturday.",
+  "contact": {
+    "address": "4th Floor, Cafeteria Building, Cognizant SRZ Campus, Chennai",
+    "city": "Chennai",
+    "region": "Tamil Nadu",
+    "postalCode": "",
+    "phone": "+91 98765 43210",
+    "whatsapp": "919876543210",
+    "email": "info@powerfitness.in",
+    "mapQuery": "Cognizant SRZ Campus Chennai",
+    "social": {"instagram": "https://instagram.com/", "facebook": "https://facebook.com/", "youtube": "https://youtube.com/"}
+  },
+  "teamOrder": ["shazan", "naveed", "adithya", "rohit", "geetha"],
+  "payment": {
+    "title": "Pay only after your free trial",
+    "text": "There is no online payment. Book your free trial, train with us, and pay only once you have decided to join.",
+    "options": [
+      {"icon": "users", "title": "At the gym", "text": "Pay at the front desk after meeting us. UPI, card or cash."},
+      {"icon": "whatsapp", "title": "On WhatsApp", "text": "Message us, confirm your plan and pay directly by UPI."}
+    ]
+  }
+}
