@@ -645,6 +645,7 @@ main { overflow-x: clip; }
 .success { display: grid; justify-items: center; gap: 1rem; padding: 1.5rem .5rem; text-align: center; }
 .success__icon { width: 76px; height: 76px; display: grid; place-items: center; background: var(--red); clip-path: polygon(12% 0, 100% 0, 88% 100%, 0 100%); animation: pop .45s cubic-bezier(.2, 1.6, .4, 1); }
 .success__icon .ico { width: 36px; height: 36px; color: #fff; }
+.success__tag { display: inline-flex; align-items: center; gap: .4rem; padding: .35rem .8rem; background: rgba(61, 220, 132, .14); color: var(--ok); font: 600 .85rem/1 var(--cond); letter-spacing: .14em; text-transform: uppercase; }
 .success h3 { font: 600 2.4rem/1 var(--display); text-transform: uppercase; }
 .success p { color: var(--silver); max-width: 46ch; }
 .success dl { display: grid; gap: .4rem; margin: .4rem 0; padding: 1rem 1.4rem; background: var(--ink); border-left: 4px solid var(--red); text-align: left; min-width: min(100%, 320px); }

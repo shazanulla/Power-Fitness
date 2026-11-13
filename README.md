@@ -54,7 +54,15 @@ Almost everything is in **`data/site.json`**: punchline, about text, stats, trai
 4. Under **Storage**, add **Upstash Redis** (free tier is enough) and connect it to the project. Vercel adds the database keys automatically. Bookings and enquiries are stored here.
 5. Redeploy. Add your own domain under **Settings → Domains**.
 
-Until storage is connected, the forms show "Online booking is not available right now. Please call or WhatsApp us." instead of losing the visitor's details.
+### Get every lead by email (Resend)
+
+Each form (free trial, class booking, contact message) is emailed to `"notify"."email"` in `data/site.json` (shaizanulla@gmail.com).
+
+1. Sign up at resend.com **with that same email** (on the free plan Resend only delivers to your own sign-up email until you verify a domain).
+2. Create an API key (Sending access) and add it in Vercel as `RESEND_API_KEY`.
+3. Redeploy.
+
+A form shows "Form submitted" once it has been saved (storage) or emailed. If neither is set up, the form asks the visitor to call or WhatsApp instead.
 
 ## Project structure
 

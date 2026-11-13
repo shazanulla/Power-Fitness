@@ -1,7 +1,10 @@
 // POST /api/enquiries — website forms (enquiry, free trial, class booking)
+// Each submission is saved for the staff panel (when storage is set up) and
+// emailed to the gym (when Resend is set up, see lib/notify.js).
 const crypto = require('crypto');
 const { getStore, StorageNotConfigured } = require('../lib/store');
 const { validateSubmission } = require('../lib/validate');
+const { notify } = require('../lib/notify');
 
 module.exports = async (req, res) => {
   if (req.method !== 'POST') {
@@ -19,16 +22,21 @@ module.exports = async (req, res) => {
 
   const record = { id: crypto.randomUUID(), ...data, status: 'new', notes: '', createdAt: new Date().toISOString() };
 
+  let saved = false;
   try {
     await getStore().add(record);
+    saved = true;
   } catch (err) {
-    console.error('[enquiries] save failed:', err.message);
-    const message = err instanceof StorageNotConfigured
-      ? 'Online booking is not available right now. Please call or WhatsApp us.'
-      : 'Something went wrong while saving. Please try again or call us.';
-    return res.status(503).json({ ok: false, message });
+    if (!(err instanceof StorageNotConfigured)) console.error('[enquiries] save failed:', err.message);
   }
 
-  console.log(`[${record.type}] ${record.name} (${record.phone})`);
+  const sent = await notify(record);
+
+  // The submission counts as received if it was saved or emailed.
+  if (!saved && sent.delivered === 0) {
+    return res.status(503).json({ ok: false, message: 'We could not send your form right now. Please call or WhatsApp us.' });
+  }
+
+  console.log(`[${record.type}] ${record.name} (${record.phone}) saved=${saved} notified=${sent.delivered}/${sent.attempted}`);
   return res.status(201).json({ ok: true, id: record.id });
 };

@@ -203,7 +203,7 @@
       busy(btn, true);
       try {
         await send({ ...data, type: 'enquiry' });
-        contactForm.innerHTML = `<div class="success"><div class="success__icon">${icon('check')}</div><h3>Message sent</h3><p>Thanks ${firstName(data.name)}. We'll get back to you on ${esc(data.phone)} soon.</p></div>`;
+        contactForm.innerHTML = `<div class="success" role="status"><div class="success__icon">${icon('check')}</div><p class="success__tag">Form submitted</p><h3>Thanks, ${firstName(data.name)}!</h3><p>Your message has been sent to our team. We'll get back to you on <strong>${esc(data.phone)}</strong> soon.</p></div>`;
       } catch (err) {
         Object.entries(err.errors || {}).forEach(([k, v]) => setError(contactForm, k, v));
         status.textContent = err.message;
@@ -307,8 +307,9 @@
         const summary = form.dataset.summary;
         form.innerHTML = `
           <button class="modal__close" value="cancel" formnovalidate aria-label="Close">${icon('x')}</button>
-          <div class="success">
+          <div class="success" role="status">
             <div class="success__icon">${icon('check')}</div>
+            <p class="success__tag">Form submitted</p>
             <h3>You're in, ${firstName(data.name)}!</h3>
             <p>Your spot for <strong>${esc(summary)}</strong> is reserved. We'll confirm on WhatsApp. Arrive 10 minutes early.</p>
             <div class="success__actions">
@@ -434,8 +435,9 @@
         const done = $('[data-done]', wizard);
         done.hidden = false;
         done.innerHTML = `
-          <div class="success">
+          <div class="success" role="status">
             <div class="success__icon">${icon('check')}</div>
+            <p class="success__tag">Form submitted</p>
             <h3>See you soon, ${firstName(data.name)}!</h3>
             <p>Your free trial is booked. We'll call or WhatsApp you on <strong>${esc(data.phone)}</strong> to confirm. No payment now: pay only after your trial if you decide to join.</p>
             <dl>

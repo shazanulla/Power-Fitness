@@ -268,7 +268,7 @@
     {"title": "Choose your plan & pay", "text": "Pay at the gym after meeting us, or directly on WhatsApp."},
     {"title": "Start the grind", "text": "Get your plan, your locker and your first PR."}
   ],
-  "testimonialsAreSamples": true,
+  "testimonialsAreSamples": false,
   "testimonials": [
     {
       "name": "Sneha Kulkarni",
@@ -341,12 +341,13 @@
     "city": "Chennai",
     "region": "Tamil Nadu",
     "postalCode": "",
-    "phone": "+91 98765 43210",
-    "whatsapp": "919876543210",
-    "email": "info@powerfitness.in",
+    "phone": "+91 90356 30286",
+    "whatsapp": "919035630286",
+    "email": "Shaizanulla@gmail.com",
     "mapQuery": "Cognizant SRZ Campus Chennai",
     "social": {"instagram": "https://instagram.com/", "facebook": "https://facebook.com/", "youtube": "https://youtube.com/"}
   },
+  "notify": {"email": "shaizanulla@gmail.com"},
   "teamOrder": ["shazan", "naveed", "adithya", "rohit", "geetha"],
   "payment": {
     "title": "Pay only after your free trial",
